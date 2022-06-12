@@ -1,0 +1,47 @@
+name: flutter_test_bloc
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_lints: ^1.0.0
+  flutter_bloc: ^7.0.0
+  equatable: ^2.0.0
+  shared_preferences: ^2.0.5
+  get_storage: ^2.0.2
+  get_it: ^7.2.0
+  path_provider: ^2.0.1
+  plugin_platform_interface: ^2.0.0
+  rxdart: ^0.26.0
+  dio: ^4.0.0
+  retrofit: ^3.0.1
+  retrofit_generator: ^4.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  go_router: ^3.0.4
+  logger: any
+  build_runner: any
+  json_serializable: ^6.2.0
+  analyzer: ^3.0.0
+  injectable_generator: ^1.5.3
+
+
+
+flutter:
+  uses-material-design: true
+
+
